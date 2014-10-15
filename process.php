@@ -1,6 +1,13 @@
 <?php
 
-/** Simple script to take a csv file in one form and output it in another */
+/** Simple script to take a csv file in one form and output it in another 
+* Input format:
+* idx,date,value
+*
+* Output format:
+* "date",idx1,idx2
+* date,val1,val2
+*/
 
 $inputFileName		= 'exampleinput.csv';
 $outputFileName 	= 'exampleOutput.csv';
